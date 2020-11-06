@@ -1,0 +1,95 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Header (home 3) */
+#_desktop_cart {
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  margin-left: 30px; }
+  .rtl #_desktop_cart {
+    margin-right: 30px;
+    margin-left: inherit; }
+  @media (max-width: 767px) {
+    #_desktop_cart {
+      margin-left: 15px; }
+      .rtl #_desktop_cart {
+        margin-right: 15px;
+        margin-left: inherit; } }
+  #_desktop_cart .cart-preview {
+    padding: 9px 0; }
+    #_desktop_cart .cart-preview a {
+      color: #1f1f1f;
+      display: inline-block; }
+    #_desktop_cart .cart-preview .shopping-cart {
+      font-size: 14px;
+      vertical-align: 0; }
+
+.h2-box-logo {
+  text-align: center;
+  padding-top: 20px; }
+  @media (max-width: 767px) {
+    .h2-box-logo {
+      padding: 5px 0; } }
+
+@media (min-width: 992px) {
+  .h2-box-menu .ApMegamenu {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center; }
+    .h2-box-menu .ApMegamenu .leo-megamenu {
+      position: static; } }
+@media (max-width: 991px) {
+  .h2-box-menu .ApMegamenu {
+    display: inline-block; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .leo-megamenu.navbar .navbar-toggler {
+    margin-left: -15px; }
+    .rtl .leo-megamenu.navbar .navbar-toggler {
+      margin-right: -15px;
+      margin-left: inherit; } }
+@media (max-width: 767px) {
+  .leo-megamenu.navbar .navbar-toggler {
+    color: #1f1f1f; } }
+
+@media (min-width: 992px) {
+  #header #search_widget {
+    position: absolute;
+    top: 24px;
+    right: 15px; }
+    .rtl #header #search_widget {
+      left: 15px;
+      right: auto; } }
+@media (max-width: 991px) {
+  #header #click_show_search {
+    margin-top: 3px; } }
+#header #click_show_search i {
+  font-size: 16px; }
+#header #click_show_search span {
+  display: none; }
+
+/*# sourceMappingURL=headerposition1769629373.css.map */

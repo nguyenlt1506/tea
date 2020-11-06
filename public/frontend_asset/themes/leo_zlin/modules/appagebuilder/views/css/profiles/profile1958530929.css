@@ -1,0 +1,147 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Profile (home 5) */
+.bn-slide.first {
+  margin-bottom: 30px; }
+
+.box-slide {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  @media (max-width: 767px) {
+    .box-slide .box-bn-slide {
+      padding-top: 15px; }
+      .box-slide .box-bn-slide .bn-slide {
+        width: 50%;
+        float: left; }
+        .rtl .box-slide .box-bn-slide .bn-slide {
+          float: right; }
+        .box-slide .box-bn-slide .bn-slide.first {
+          margin-bottom: 0;
+          padding-right: 7.5px; }
+          .rtl .box-slide .box-bn-slide .bn-slide.first {
+            padding-left: 7.5px;
+            padding-right: inherit; }
+        .box-slide .box-bn-slide .bn-slide.second {
+          padding-left: 7.5px; }
+          .rtl .box-slide .box-bn-slide .bn-slide.second {
+            padding-right: 7.5px;
+            padding-left: inherit; } }
+
+.bn-left {
+  margin-top: 30px; }
+  @media (max-width: 991px) {
+    .bn-left {
+      width: 25%;
+      float: left; }
+      .rtl .bn-left {
+        float: right; } }
+  @media (max-width: 575px) {
+    .bn-left {
+      width: 100%; } }
+
+@media (max-width: 991px) {
+  .hot-sale {
+    width: 50%;
+    float: left;
+    padding: 0 30px; } }
+@media (max-width: 575px) {
+  .hot-sale {
+    width: 100%;
+    padding: 0; } }
+
+@media (max-width: 991px) {
+  .bn-left-bot {
+    margin-top: 30px;
+    width: 25%;
+    float: right; }
+    .rtl .bn-left-bot {
+      float: left; } }
+@media (max-width: 575px) {
+  .bn-left-bot {
+    width: 100%;
+    margin-bottom: 30px; } }
+
+.ApColumn .hot-sale .title_block {
+  color: #7fbf00;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 12px 0;
+  border-bottom: 1px solid #7fbf00;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: left;
+  letter-spacing: 0.4px; }
+  .rtl .ApColumn .hot-sale .title_block {
+    text-align: right; }
+
+.h5-product-list .thumbnail-container:hover, .hot-sale .thumbnail-container:hover {
+  -moz-box-shadow: 0px 0px 1px 0px rgba(31, 31, 31, 0.17);
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(31, 31, 31, 0.17);
+  -o-box-shadow: 0px 0px 1px 0px rgba(31, 31, 31, 0.17);
+  -ms-box-shadow: 0px 0px 1px 0px rgba(31, 31, 31, 0.17);
+  box-shadow: 0px 0px 1px 0px rgba(31, 31, 31, 0.17); }
+
+.h5-bn {
+  position: relative;
+  margin-bottom: 30px; }
+  .h5-bn .image_description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .h5-bn .image_description h2 {
+      color: #FFFFFF;
+      font-size: 36px;
+      letter-spacing: 0.9px;
+      text-align: center;
+      margin-bottom: 0; }
+      @media (max-width: 1199px) {
+        .h5-bn .image_description h2 {
+          font-size: 30px; } }
+      @media (max-width: 767px) {
+        .h5-bn .image_description h2 {
+          font-size: 23px; } }
+      @media (max-width: 575px) {
+        .h5-bn .image_description h2 {
+          font-size: 23px;
+          line-height: 20px; } }
+      @media (max-width: 480px) {
+        .h5-bn .image_description h2 {
+          font-size: 14px; } }
+      @media (max-width: 480px) {
+        .h5-bn .image_description h2 {
+          font-size: 12px; } }
+
+.ApColumn .latest-blogs .title_block {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  border-bottom: 1px solid #7fbf00;
+  text-align: left;
+  color: #7fbf00;
+  margin-bottom: 30px;
+  padding: 12px 0; }
+  .rtl .ApColumn .latest-blogs .title_block {
+    text-align: right; }
+
+/*# sourceMappingURL=profile1958530929.css.map */

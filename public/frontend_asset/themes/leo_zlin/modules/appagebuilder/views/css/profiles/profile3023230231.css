@@ -1,0 +1,73 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+.widget-category_image .block_content .cate_content {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+  .widget-category_image .block_content .cate_content span:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    background-color: #7fbf00; }
+    .rtl .widget-category_image .block_content .cate_content span:nth-child(2) {
+      left: 0;
+      right: auto; }
+  .widget-category_image .block_content .cate_content .cover-img {
+    display: block; }
+.widget-category_image .block_content ul:hover .cate_content span:nth-child(2) {
+  color: #FFFFFF; }
+
+.h3-list-product {
+  min-height: 753px; }
+  @media (max-width: 575px) {
+    .h3-list-product {
+      min-height: 710px; } }
+  @media (max-width: 480px) and (min-width: 376px) {
+    .h3-list-product {
+      min-height: 675px; } }
+  .h3-list-product .ApColumn .title_block {
+    color: #FFFFFF;
+    margin-top: 70px; }
+    @media (max-width: 991px) {
+      .h3-list-product .ApColumn .title_block {
+        margin-top: 50px;
+        margin-bottom: 30px; } }
+    @media (max-width: 575px) {
+      .h3-list-product .ApColumn .title_block {
+        margin-top: 30px;
+        margin-bottom: 15px; } }
+  .h3-list-product .thumbnail-container {
+    margin-bottom: 0; }
+    @media (max-width: 375px) {
+      .h3-list-product .thumbnail-container {
+        margin-bottom: 10px; } }
+    .h3-list-product .thumbnail-container .functional-buttons .leo_cart_quantity {
+      display: none; }
+
+.h3-box-instagram {
+  padding: 30px 0; }
+
+/*# sourceMappingURL=profile3023230231.css.map */

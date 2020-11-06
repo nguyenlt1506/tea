@@ -1,0 +1,112 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/* Header (home 5) */
+.box-logo {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+body.layout-boxed-lg .wr-menu-cart:before, body.layout-boxed-lg .wr-menu-cart:after {
+  padding: 0;
+  margin-left: 0px; }
+
+.wr-menu-cart {
+  position: relative; }
+  @media (max-width: 991px) {
+    .wr-menu-cart {
+      height: 50px; } }
+  .wr-menu-cart:before, .wr-menu-cart:after {
+    content: "";
+    padding: 0px 1000px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    height: 1px;
+    display: block !important;
+    background: #f1f1f1;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-left: -1000px; }
+    .rtl .wr-menu-cart:before, .rtl .wr-menu-cart:after {
+      margin-right: -1000px;
+      margin-left: inherit; }
+  .wr-menu-cart:before {
+    top: 0; }
+  .wr-menu-cart:after {
+    top: 50px; }
+
+@media (max-width: 991px) {
+  .wr-menu-cart .box-menu {
+    position: static; } }
+.wr-menu-cart .box-menu .ApMegamenu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  @media (max-width: 991px) {
+    .wr-menu-cart .box-menu .ApMegamenu {
+      position: static; } }
+  .wr-menu-cart .box-menu .ApMegamenu .leo-megamenu {
+    position: static; }
+    @media (min-width: 992px) {
+      .wr-menu-cart .box-menu .ApMegamenu .leo-megamenu .navbar-nav > li > a {
+        line-height: 50px; } }
+
+@media (min-width: 1200px) {
+  .leo-megamenu .navbar-nav > li > a {
+    margin-left: 60px; }
+    .rtl .leo-megamenu .navbar-nav > li > a {
+      margin-right: 60px;
+      margin-left: inherit; } }
+
+@media (max-width: 991px) {
+  .leo-megamenu.navbar .navbar-toggler {
+    margin-left: -15px;
+    margin-top: 5px; }
+    .rtl .leo-megamenu.navbar .navbar-toggler {
+      margin-right: -15px;
+      margin-left: inherit; } }
+@media (max-width: 767px) {
+  .leo-megamenu.navbar .navbar-toggler {
+    width: 2.5em;
+    height: 2em;
+    color: #000000; } }
+
+.box-cart #_desktop_cart {
+  width: 160px;
+  height: 50px; }
+  @media (max-width: 991px) {
+    .box-cart #_desktop_cart {
+      width: auto; } }
+  .box-cart #_desktop_cart .cart-preview .shopping-cart {
+    font-size: 16px;
+    vertical-align: -1px; }
+  @media (max-width: 767px) {
+    .box-cart #_desktop_cart .cart-preview a {
+      color: #000000; } }
+
+/*# sourceMappingURL=headerposition2126318624.css.map */
